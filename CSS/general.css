@@ -1,0 +1,26 @@
+body {
+  font-weight: 100;
+  background-color: hsl(0, 0%, 6%);
+  color: hsl(0, 0%, 98%);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+.Regisusu {
+  padding: 18px;
+  text-align: center;
+  color: #a9a9a9;
+  font-size: 30px;
+}
+
+.i_s {
+  padding: 18px;
+  text-align: center;
+  color: #a9a9a9;
+  font-size: 30px;
+}
+
+select {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}

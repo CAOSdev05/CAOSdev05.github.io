@@ -1,0 +1,29 @@
+@mixin theme($theme: rgb(183, 22, 22)) {
+    padding: 18px;
+    text-align: center;
+    color: #a9a9a9;
+    font-size: 30px;
+}
+
+@mixin ff {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+body{
+    font-weight: 100;
+    background-color: hsl(0 0% 6%);
+    color: hsl(0 0% 98%);
+    @include ff;
+}
+
+.Regisusu {
+    @include theme;
+}
+
+.i_s {
+    @include theme;
+}
+select{
+    @include ff;
+}
