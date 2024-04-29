@@ -1,0 +1,39 @@
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.i_s {
+  margin: 20px;
+}
+form {
+  padding: 10px;
+  border-radius: 35px;
+  border-style: solid;
+  border-color: rgb(194, 194, 199);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: rgb(26, 23, 23);
+}
+
+.formu {
+  color: #a9a9a9;
+}
+
+input {
+  background-color: rgb(26, 23, 23);
+  border-color: rgb(100, 98, 98);
+  border-style: solid;
+}
+
+a {
+  margin: 5px;
+}

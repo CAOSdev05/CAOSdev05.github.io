@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registro</title>
+    <link  rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link  rel="stylesheet" type="text/css" href="CSS/registro.css">
+    <link  rel="stylesheet" type="text/css" href="CSS/general.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+    <body>
+        <form action="login.html">
+            <h1 class="Regisusu">Registro de Usuarios</h1>
+            <label class="formu">Moneda de la billetera</label><br>
+                <Select>
+                    <Option value="COP">COP</Option>
+                    <Option value="USD">USD</Option>
+                    <Option value="BTC">BTC</Option>
+                </Select><br>
+            <label for="n_usuario" class="formu">Nombre de usuario</label><br>
+            <input type="text" placeholder="Nombre" name="n_usuario" required autocomplete="off"><br>
+            <label for="email" class="formu">Email:</label><br>
+            <input type="email" placeholder="Email" name="email" required autocomplete="off"> <br>
+            <label for="email" class="formu">Contraseña:</label><br>
+            <input type="password" placeholder="Contraseña" name="password" required autocomplete="off"> <br>
+            <label class="formu">Genero:</label><br>
+            <input type="radio" name="genero" checked>
+            <label class="formu">Masculino</label>
+            <input type="radio" name="genero"> <label class="formu">Femenino</label>
+            <input type="radio" name="genero">
+            <label class="formu">Otro</label><br>
+            <button type="submit" class="btn btn-outline-warning">Enviar</button><br>
+            <a href="login.html"> Ya tienes cuenta?
+            </a>
+        </form>
+    </body>
+</html>

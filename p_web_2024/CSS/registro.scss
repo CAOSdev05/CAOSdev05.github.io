@@ -1,0 +1,52 @@
+body {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+form {
+    padding: 10px;
+    border-radius: 35px;
+    border-style: solid;
+    border-color: rgb(194, 194, 199);
+    box-sizing: border-box;
+    background-color: rgb(26, 23, 23);
+}
+
+select {
+    width: 72%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(26, 23, 23);
+    border-color: rgb(194, 194, 199);
+    border-style: solid;
+    color: #a9a9a9;
+}
+:root {
+    --valid: hsl(140 80% 40%);
+    --invalid: hsl(10 80% 40%);
+    --input: hsl(0 0% 0%);
+}
+
+.formu {
+    color: #a9a9a9;
+}
+
+
+input {
+    background-color: rgb(26, 23, 23);
+    border-color: rgb(100, 98, 98);
+    border-style: solid;
+}
+
+a {
+    margin: 5px;
+}
